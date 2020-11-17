@@ -1,19 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <Authors>Edison Zhou</Authors>
     <Description>One component for ASP.NET Core based on open source Canal Client - CanalSharp</Description>
-    <Copyright>Copyright © 2019 Edison Zhou</Copyright>
+    <Copyright>Copyright © 2020 Edison Zhou</Copyright>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.0.6</Version>
+    <Version>0.0.7</Version>
     <PackageIconUrl></PackageIconUrl>
     <PackageProjectUrl>https://github.com/XiLife-OSPC/CanalSharp.AspNetCore</PackageProjectUrl>
     <Company>XiLife-OSPC</Company>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CanalSharp.Client" Version="0.3.1" />
+    <PackageReference Include="CanalSharp.Client" Version="0.3.3" />
     <PackageReference Include="Dapper" Version="1.50.5" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="MongoDB.Driver" Version="2.8.0" />
